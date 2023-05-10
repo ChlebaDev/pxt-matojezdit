@@ -1,0 +1,27 @@
+{
+    "name": "pxt-matojezdit",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-magicbit-pca9685-pwmservo": "github:TomasKazda/pxt-magicbit-pca9685-pwmservo#34efb579e9550b93fb36cca39677db18c5de1e86",
+        "pxt-magicbit-pca9685": "github:TomasKazda/pxt-magicbit-pca9685#31053e8d1380ca67c69e729c607b8c68fd4357a5"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
